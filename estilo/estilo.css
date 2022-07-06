@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADER*/
+.a{
+    justify-content: center;
+    text-align: center;
+    background-image: url(../imagen/back.jpg);
+
+}
+
+.logo{
+    height: 150px;
+    margin-top: 25px;
+
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: blanchedalmond;   
+    
+}
+
+.dropdown{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+/*HEADER*/
+
+/*index*/
+.carousel-item{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+
+/*primerEtapa*/
+.parte1{
+    display: flex;
+    background-color: black;
+}
+
+.origen{    
+    font-family:'Alfa Slab One', cursive;
+    margin-left:180px;    
+    font-size: 50px;
+    color: white;
+}
+
+.historia1{
+   margin-top: 60px;
+   margin-right: 160px;
+   color: white;
+    
+}
+
+.imghistoria1{
+        height: 25%;
+}
+
+.parte2{
+    display: flex;
+    background-image: linear-gradient(white, grey, black);
+}
+
+.imghistoria2{
+    height: 25%;
+}
+
+/*TIENDA*/
+
+.btienda{
+    display: flex;
+}
+
+.card{
+    margin: 15px;
+    justify-content: flex-start;
+
+}
+
+/*FOOTER*/
+.c{
+    display: flex;
+    background-color: black;
+    color: coral;  
+    justify-content: center;
+        
+}
+
+.card {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+
+
